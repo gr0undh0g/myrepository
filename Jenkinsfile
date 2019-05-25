@@ -26,7 +26,7 @@ pipeline {
         }
         stage('terraform plan') {
             steps {
-                sh 'ls ./jenkins; /usr/local/bin/terraform plan ./jenkins'
+                sh 'ls ./jenkins; /usr/local/bin/terraform plan /var/lib/jenkins/workspace/pipe/myrepository/'
                 sh 'echo "terraform plan" '
             }
         }
