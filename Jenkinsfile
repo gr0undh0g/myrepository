@@ -14,7 +14,7 @@ pipeline {
         }
         stage('git clone') {
             steps {
-                //sh 'rm -r *;git clone https://github.com/gr0undh0g/myrepository.gitt'
+                sh 'rm -r *;git clone https://github.com/gr0undh0g/myrepository.git'
                 sh 'echo "git clone" '
             }
         }
