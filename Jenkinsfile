@@ -20,7 +20,7 @@ pipeline {
         }
         stage('terraform init') {
             steps {
-                sh '/usr/local/bin/terraform init ./jenkins'
+                sh '/usr/local/bin/terraform init /var/lib/jenkins/workspace/pipe/myrepository/'
                 sh 'echo "terraform init" '
             }
         }
