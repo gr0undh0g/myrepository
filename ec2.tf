@@ -1,6 +1,6 @@
 provider "aws" {
   region = "us-east-2"
-  shared_credentials_file = "/home/matt/.aws/credentials"
+  shared_credentials_file = "/home/jenkins/.aws/credentials"
   
   #profile                 = "customprofile"
 
