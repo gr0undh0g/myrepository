@@ -42,7 +42,7 @@ pipeline {
         }
         stage('terraform ended') {
             steps {
-                //sh 'echo "Ended...bbb.!!"'
+                //sh 'echo "Ended...bbb.aaaaaaaaaaaa!!"'
                 sh 'echo "terraform ended" '
             }
         }
