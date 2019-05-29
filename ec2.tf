@@ -5,7 +5,7 @@ provider "aws" {
 
 }
 
-#data "aws_ami" "ubuntu" {
+###data "aws_ami" "ubuntu" {
   #most_recent = true
 
   #filter {
