@@ -19,7 +19,7 @@ provider "aws" {
     #values = ["hvm"]
   #}
 
-  #owners = ["859160039192"]
+  #owners = ["859160039192 "]
 ###}
 
 #resource "aws_instance" "web" {
