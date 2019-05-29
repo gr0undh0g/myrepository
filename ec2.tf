@@ -13,7 +13,7 @@ provider "aws" {
     #values = ["ubuntu/images/hvm-ssd/ubuntu-trusty-14.04-amd64-server-*"]
   #}
 
-  #filter {
+  ####filter {
     #name   = "virtualization-type"
     #values = ["hvm"]
   #}
