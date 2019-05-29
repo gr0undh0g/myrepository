@@ -31,6 +31,15 @@ pipeline {
                 sh 'echo "terraform planzzzzz" '
             }
         }
+        stage('terraform apply') {
+
+            steps {
+                sh 'ls /var/lib/jenkins/workspace/pipe/myrepository/; /usr/local/bin/terraform apply /var/lib/jenkins/workspace/pipe/myrepository/'
+                sh 'echo "terraform apply" '
+
+            }
+
+        }
         stage('terraform ended') {
             steps {
                 //sh 'echo "Ended...bbb.!!"'
