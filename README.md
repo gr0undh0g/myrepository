@@ -29,3 +29,11 @@ Once this is successful at any time if you want to remove the provisioned instan
 $ terraform destroy -auto-approve
 
 #Cheers - Pavan Kumar Aleti
+
+
+
+
+
+
+
+vvvvv
