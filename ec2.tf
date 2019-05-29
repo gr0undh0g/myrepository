@@ -20,7 +20,7 @@ provider "aws" {
   #}
 
   #owners = ["859160039192"]
-#}
+###}
 
 #resource "aws_instance" "web" {
   #ami           = "${data.aws_ami.ubuntu.id}"
