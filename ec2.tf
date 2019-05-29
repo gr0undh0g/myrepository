@@ -1,7 +1,7 @@
 provider "aws" {
-  region = "eu-west-2"
+  region = "us-east-2"
   shared_credentials_file = "/home/matts/tf_user/.aws/creds"
-  profile                 = "customprofile"
+  #profile                 = "customprofile"
 
 }
 
@@ -18,7 +18,7 @@ data "aws_ami" "ubuntu" {
     values = ["hvm"]
   }
 
-  owners = ["099720109477"]
+  owners = ["859160039192"]
 }
 
 resource "aws_instance" "web" {
