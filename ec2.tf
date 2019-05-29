@@ -1,6 +1,6 @@
 provider "aws" {
   region = "us-east-2"
-  shared_credentials_file = "/home/matts/tf_user/.aws/creds"
+  shared_credentials_file = "/home/matts/tf_user/.aws/eds"
   #profile                 = "customprofile"
 
 }
